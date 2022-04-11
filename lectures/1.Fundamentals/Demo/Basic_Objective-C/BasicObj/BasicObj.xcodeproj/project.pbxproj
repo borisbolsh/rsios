@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		45955D642804BF40008CD842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45955D652804C5CF008CD842 /* RSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPerson.m; sourceTree = "<group>"; };
+		45955D662804C5EE008CD842 /* RSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPerson.h; sourceTree = "<group>"; };
+		45955D672804C8E4008CD842 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		45955D5C2804BB42008CD842 = {
+			isa = PBXGroup;
+			children = (
+				45955D672804C8E4008CD842 /* makefile */,
+				45955D642804BF40008CD842 /* main.m */,
+				45955D652804C5CF008CD842 /* RSPerson.m */,
+				45955D662804C5EE008CD842 /* RSPerson.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		45955D5D2804BB42008CD842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 45955D602804BB42008CD842 /* Build configuration list for PBXProject "BasicObj" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45955D5C2804BB42008CD842;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		45955D612804BB42008CD842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		45955D622804BB42008CD842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45955D602804BB42008CD842 /* Build configuration list for PBXProject "BasicObj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45955D612804BB42008CD842 /* Debug */,
+				45955D622804BB42008CD842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45955D5D2804BB42008CD842 /* Project object */;
+}
