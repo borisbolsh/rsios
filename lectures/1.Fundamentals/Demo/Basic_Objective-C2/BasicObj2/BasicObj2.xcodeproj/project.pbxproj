@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		45183F802806070500CE9B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45183F832806107900CE9B5C /* Passenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		45183F842806107900CE9B5C /* Passenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+		45183F862806129500CE9B5C /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		45183F872806129500CE9B5C /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		45183F892806162C00CE9B5C /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		45183F8A2806162C00CE9B5C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		45183F8D2806171400CE9B5C /* CarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarPort.h; sourceTree = "<group>"; };
+		45183F8E2806171400CE9B5C /* CarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarPort.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		45183F79280606E700CE9B5C = {
+			isa = PBXGroup;
+			children = (
+				45183F802806070500CE9B5C /* main.m */,
+				45183F8128060D4200CE9B5C /* Model */,
+			);
+			sourceTree = "<group>";
+		};
+		45183F8128060D4200CE9B5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45183F8B280616F000CE9B5C /* Port */,
+				45183F882806160400CE9B5C /* Car */,
+				45183F852806127D00CE9B5C /* Vehicle */,
+				45183F822806105200CE9B5C /* Passenger */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45183F822806105200CE9B5C /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				45183F832806107900CE9B5C /* Passenger.h */,
+				45183F842806107900CE9B5C /* Passenger.m */,
+			);
+			path = Passenger;
+			sourceTree = "<group>";
+		};
+		45183F852806127D00CE9B5C /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				45183F862806129500CE9B5C /* Vehicle.h */,
+				45183F872806129500CE9B5C /* Vehicle.m */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		45183F882806160400CE9B5C /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				45183F892806162C00CE9B5C /* Car.h */,
+				45183F8A2806162C00CE9B5C /* Car.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		45183F8B280616F000CE9B5C /* Port */ = {
+			isa = PBXGroup;
+			children = (
+				45183F8C280616FA00CE9B5C /* CarPort */,
+			);
+			path = Port;
+			sourceTree = "<group>";
+		};
+		45183F8C280616FA00CE9B5C /* CarPort */ = {
+			isa = PBXGroup;
+			children = (
+				45183F8D2806171400CE9B5C /* CarPort.h */,
+				45183F8E2806171400CE9B5C /* CarPort.m */,
+			);
+			path = CarPort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		45183F7A280606E700CE9B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 45183F7D280606E700CE9B5C /* Build configuration list for PBXProject "BasicObj2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45183F79280606E700CE9B5C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		45183F7E280606E700CE9B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		45183F7F280606E700CE9B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45183F7D280606E700CE9B5C /* Build configuration list for PBXProject "BasicObj2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45183F7E280606E700CE9B5C /* Debug */,
+				45183F7F280606E700CE9B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45183F7A280606E700CE9B5C /* Project object */;
+}
