@@ -16,6 +16,9 @@
 		45183F8A2806162C00CE9B5C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		45183F8D2806171400CE9B5C /* CarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarPort.h; sourceTree = "<group>"; };
 		45183F8E2806171400CE9B5C /* CarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarPort.m; sourceTree = "<group>"; };
+		453567042807695700C68E06 /* Passenger+RandomGeneratable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passenger+RandomGeneratable.h"; sourceTree = "<group>"; };
+		453567052807695700C68E06 /* Passenger+RandomGeneratable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Passenger+RandomGeneratable.m"; sourceTree = "<group>"; };
+		4535670628076A2900C68E06 /* Enterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enterable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -41,6 +44,7 @@
 		45183F822806105200CE9B5C /* Passenger */ = {
 			isa = PBXGroup;
 			children = (
+				45356703280768D100C68E06 /* Category */,
 				45183F832806107900CE9B5C /* Passenger.h */,
 				45183F842806107900CE9B5C /* Passenger.m */,
 			);
@@ -78,8 +82,18 @@
 			children = (
 				45183F8D2806171400CE9B5C /* CarPort.h */,
 				45183F8E2806171400CE9B5C /* CarPort.m */,
+				4535670628076A2900C68E06 /* Enterable.h */,
 			);
 			path = CarPort;
+			sourceTree = "<group>";
+		};
+		45356703280768D100C68E06 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				453567042807695700C68E06 /* Passenger+RandomGeneratable.h */,
+				453567052807695700C68E06 /* Passenger+RandomGeneratable.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
